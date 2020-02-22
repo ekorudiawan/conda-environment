@@ -1,0 +1,21 @@
+name: ros
+channels:
+  - anaconda
+  - pytorch
+dependencies:
+  - python=3.6.9
+  - cudatoolkit=10.1
+  - tensorflow-gpu==1.14.0
+  - pytorch
+  - torchvision
+  - sip
+  - pip
+  - pip:
+    - pyyaml 
+    - rospkg 
+    - catkin_pkg 
+    - empy
+    - defusedxml
+    - pytransform3d
+    - deap
+    - stable-baselines[mpi]
