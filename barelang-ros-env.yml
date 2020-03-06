@@ -17,5 +17,7 @@ dependencies:
     - empy
     - defusedxml
     - pytransform3d
+    - pycrypto
+    - gnupg
     - deap
     - stable-baselines[mpi]
