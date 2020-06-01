@@ -11,9 +11,10 @@ dependencies:
   - sip
   - pip
   - pip:
-    - pyyaml 
-    - rospkg 
-    - catkin_pkg 
+    - cma
+    - pyyaml
+    - rospkg
+    - catkin_pkg
     - empy
     - defusedxml
     - pytransform3d
