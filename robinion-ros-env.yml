@@ -1,0 +1,17 @@
+name: ros
+channels:
+  - anaconda
+dependencies:
+  - python=3.8.2
+  - sip
+  - pip
+  - pip:
+    - cma
+    - pyyaml
+    - rospkg
+    - catkin_pkg
+    - empy
+    - defusedxml
+    - pytransform3d
+    - pycrypto
+    - gnupg
